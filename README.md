@@ -7,17 +7,29 @@ This submission replaces the learning system with a PyTorch DQN, while preservin
 
 RUNNING GRADED ASSIGNMENT 02
 1. Clone the repository
+   
    git clone https://github.com/codecrasher123/snake-rl-pytorch.git
+   
    cd snake-rl-pytorch
+   
 2.Create and activate the Conda environment
+
    conda create -n uitnn python=3.11 -y
+   
    conda activate uitnn
+   
 3. Install required libraries
+   
    pip install -r requirements.txt
+   
    To enable mp4 export
+   
    pip install imageio-ffmpeg
+   
 4.Visualizing the trained agent(If you'd like to train the agent please run python training.py, if not you can visualise it)
+
   python game_visualization_torch.py
+  
 This will produce images/game_visual_v17.1_200000.mp4
 5. Presentation video is in https://drive.google.com/file/d/122x9JPlmhxFLtDJqheqFvIVwUWjv4sfF/view?usp=sharing
 6. Powerpoint presentation is in this main branch
